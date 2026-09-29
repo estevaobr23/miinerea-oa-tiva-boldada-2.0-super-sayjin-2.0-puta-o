@@ -271,7 +271,7 @@ class Storage:
             advertiser_counts = Counter((record.source, record.advertiser_name, record.advertiser_id) for record in records if record.advertiser_name)
             for (source, name, advertiser_id), count in advertiser_counts.items():
                 connection.execute(
-                    "INSERT INTO advertisers(job_id,source,advertiser_id,advertiser_name,result_count) VALUES(?,?,?,?,?)",
+                    "INSERT INTO advertisers(job_id,source,advertiser_id,advertiser_name,result_count) VALUES(?,?,?,?,?) ON CONFLICT(job_id,source,advertiser_name) DO UPDATE SET result_count=advertisers.result_count+excluded.result_count, advertiser_id=COALESCE(advertisers.advertiser_id, excluded.advertiser_id)",
                     (job_id, source, advertiser_id, name, count),
                 )
         return result_ids
