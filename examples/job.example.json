@@ -1,0 +1,12 @@
+{
+  "seed": "emagrecimento",
+  "depth": "quick",
+  "country": "BR",
+  "sources": ["meta", "tiktok", "google"],
+  "keywords": [
+    "emagrecer depois dos 40",
+    "resistência à insulina",
+    "fígado gorduroso"
+  ],
+  "preflight": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "7234567890123456789",
+  "text": "Rotina simples para organizar refeições #alimentacao #rotina",
+  "createTime": 1672531200,
+  "createTimeISO": "2023-01-01T00:00:00.000Z",
+  "webVideoUrl": "https://www.tiktok.com/@exampleuser/video/7234567890123456789",
+  "authorMeta": {
+    "id": "6784642169778881542",
+    "name": "exampleuser",
+    "nickName": "Example User",
+    "fans": 12500
+  },
+  "musicMeta": {
+    "musicName": "Original Sound",
+    "musicAuthor": "exampleuser",
+    "musicId": "7234567890123456789"
+  },
+  "videoMeta": {
+    "coverUrl": "https://cdn.example/cover.jpg",
+    "downloadAddr": "https://cdn.example/video.mp4"
+  },
+  "playCount": 125000,
+  "diggCount": 12500,
+  "commentCount": 340,
+  "shareCount": 850,
+  "hashtags": [
+    {"id": "1", "name": "alimentacao", "title": "Alimentação"},
+    {"id": "2", "name": "rotina", "title": "Rotina"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "adArchiveID": "1234567890123456",
+  "adLibraryURL": "https://www.facebook.com/ads/library/?id=1234567890123456",
+  "pageID": "15087023",
+  "pageName": "Oferta Exemplo",
+  "adStatus": "ACTIVE",
+  "publisherPlatforms": ["FACEBOOK", "INSTAGRAM"],
+  "startDate": "2026-07-01",
+  "endDate": null,
+  "adText": "Método passo a passo que promete reversão em 7 dias sem dieta.",
+  "ctaDomain": "example.com",
+  "ctaUrl": "https://example.com/oferta?utm_source=meta",
+  "ctaHeadline": "Plano guiado",
+  "ctaDescription": "Organize sua rotina.",
+  "ctaText": "Saiba mais",
+  "adSnapshotUrl": "https://www.facebook.com/ads/archive/render_ad/?id=1234567890123456",
+  "sourceQuery": "emagrecer depois dos 40"
+}

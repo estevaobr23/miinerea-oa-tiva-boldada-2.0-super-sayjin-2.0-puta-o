@@ -1,0 +1,33 @@
+{
+  "searchQuery": {
+    "term": "emagrecimento",
+    "page": 1,
+    "countryCode": "br",
+    "languageCode": "pt"
+  },
+  "organicResults": [
+    {
+      "title": "Planejamento alimentar semanal",
+      "url": "https://example.org/plano?utm_source=google",
+      "description": "Guia para organizar refeições e lista de compras.",
+      "position": 1
+    },
+    {
+      "title": "Hábitos e saúde",
+      "url": "https://saude.example/habitos",
+      "description": "Informações educativas.",
+      "position": 2
+    }
+  ],
+  "peopleAlsoAsk": [
+    {
+      "question": "Como organizar a alimentação da semana?",
+      "answer": "Comece por um planejamento simples.",
+      "url": "https://example.org/resposta"
+    }
+  ],
+  "relatedQueries": [
+    {"title": "cardápio semanal simples", "url": "https://google.com/search?q=cardapio"},
+    {"title": "lista de compras saudável", "url": "https://google.com/search?q=lista"}
+  ]
+}
