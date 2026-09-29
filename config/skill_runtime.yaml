@@ -1,0 +1,60 @@
+version: "2026-09-28-big-nichos-low-ticket"
+principles:
+  - "Dor populacional validada nao e igual a oferta comercial validada."
+  - "Longevidade de anuncio e sinal, nao prova de lucro."
+  - "Modelar mecanismo, nao copiar produto nem alegacao."
+  - "Priorizar mecanismo, microdor, tangibilidade e uso real."
+validation:
+  longevity_days:
+    test: [1, 7]
+    watchlist: [8, 20]
+    investigate: [21, 45]
+    strong: [46, 90]
+    very_strong_min: 91
+  priority_signals:
+    - multiple_active_ads
+    - staggered_start_dates
+    - multiple_distinct_creatives
+    - independent_advertisers
+    - stable_destination_or_offer
+    - cross_platform_presence
+    - lateralized_mechanism
+score_weights:
+  ad_volume: 25
+  longevity: 25
+  advertiser_diversity: 20
+  creative_diversity: 15
+  cross_source_presence: 15
+big_pain_categories:
+  - emagrecimento_metabolismo
+  - dinheiro_dividas_renda
+  - sono
+  - ansiedade_estresse
+  - diabetes_saude_metabolica
+  - hipertensao_cardiovascular
+  - dor_mobilidade
+  - saude_sexual
+  - menopausa
+  - figado_metabolismo
+  - intestino_digestao
+  - queda_de_cabelo
+  - fertilidade
+  - zumbido_audicao
+  - visao
+  - relacionamento
+  - espiritualidade_proposito
+health_claim_flags:
+  - cura
+  - curar
+  - reverter
+  - reversao
+  - eliminar diabetes
+  - remover celulas
+  - nobel
+  - harvard
+  - em menos de 7 dias
+  - sem dieta
+  - sem exercicio
+  - sem academia
+  - tratamento natural
+  - protocolo natural
