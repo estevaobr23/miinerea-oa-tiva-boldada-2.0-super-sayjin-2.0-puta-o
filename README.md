@@ -184,6 +184,47 @@ Banco, raw data, token e `normalized.json` não entram no commit. O workflow só
 
 Para executar: GitHub → **Actions** → **Mine intelligence packet** → **Run workflow** → cole o Job JSON.
 
+## Ponte HTTP na Vercel
+
+A pasta `bridge/` contém uma função serverless mínima. Ela não executa o engine: apenas autentica a chamada, dispara `mine.yml` pela API do GitHub e lê o último resultado compacto.
+
+Rotas:
+
+- `POST /api/mine` — valida o Job JSON e dispara `workflow_dispatch` em `main`;
+- `GET /api/status` — retorna a execução manual mais recente do workflow;
+- `GET /api/latest` — retorna `summary.json` e `score.json`;
+- `GET /api/latest?include_report=true` — inclui também `REPORT.md`;
+- `GET /api/openapi` — contrato OpenAPI para conectar um cliente/Action do ChatGPT.
+
+As três rotas operacionais exigem:
+
+```http
+Authorization: Bearer <MINERACAO_TRIGGER_KEY>
+```
+
+Variáveis exclusivas da Vercel:
+
+- `MINERACAO_TRIGGER_KEY`: chave longa e aleatória compartilhada apenas com o cliente autorizado;
+- `GITHUB_WORKFLOW_TOKEN`: fine-grained Personal Access Token restrito ao repositório oficial, com **Actions: Read and write** e **Contents: Read-only**.
+
+O token GitHub não precisa de permissões administrativas, Issues, Pull Requests, deployments ou acesso a outros repositórios. `APIFY_API_TOKEN` permanece somente em GitHub Actions Secrets e nunca vai para a Vercel.
+
+A ponte rejeita payloads acima de 16 KiB, fontes desconhecidas, profundidades inválidas, keywords duplicadas e jobs acima do teto de cada profundidade. Há rate limiting em memória como proteção de primeira linha; por ser serverless, limites distribuídos mais rígidos exigiriam um armazenamento externo, deliberadamente não adicionado nesta versão.
+
+Teste local da ponte:
+
+```powershell
+Set-Location .\bridge
+npm test
+```
+
+Deploy manual, quando necessário:
+
+```powershell
+Set-Location .\bridge
+npx vercel --prod
+```
+
 ## Testes
 
 ```powershell
@@ -208,6 +249,7 @@ Testes reais consomem créditos Apify e devem usar `quick`, uma fonte por vez e 
 
 ```text
 config/                 limites, pesos, providers e runtime da Skill
+bridge/                 ponte HTTP mínima para Vercel
 skills/                 Skill oficial integral
 src/mineracao_info/     pipeline, providers, normalizadores, banco e relatórios
 tests/                  testes e fixtures
