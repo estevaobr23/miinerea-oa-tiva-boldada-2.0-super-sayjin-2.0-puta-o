@@ -5,11 +5,12 @@ from .base import Provider
 class TikTokProvider(Provider):
     name = "tiktok"
 
-    def build_input(self, seed: str, max_results: int, country: str) -> dict[str, Any]:
+    def build_input(self, query: str, max_results: int, country: str, *, scrape_details: bool = False) -> dict[str, Any]:
         payload = dict(self.defaults)
         payload.update({
-            "searchQueries": [seed],
+            "searchQueries": [query],
             "resultsPerPage": max_results,
+            "downloadSubtitlesOptions": "NEVER_DOWNLOAD_SUBTITLES",
         })
-        # Alguns proxies do Actor podem nao aceitar BR; o usuario pode editar config/providers.yaml.
+        payload.pop("shouldDownloadSubtitles", None)
         return payload

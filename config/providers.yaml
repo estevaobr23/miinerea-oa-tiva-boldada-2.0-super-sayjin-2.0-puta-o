@@ -23,7 +23,7 @@ tiktok:
     topLevelCommentsPerPost: 0
     maxRepliesPerComment: 0
     shouldDownloadVideos: false
-    shouldDownloadSubtitles: false
+    downloadSubtitlesOptions: NEVER_DOWNLOAD_SUBTITLES
     shouldDownloadCovers: false
     proxyCountryCode: BR
 
@@ -35,3 +35,6 @@ google:
     countryCode: br
     languageCode: pt
     mobileResults: false
+    saveHtml: false
+    saveHtmlToKeyValueStore: false
+    includeIcons: false

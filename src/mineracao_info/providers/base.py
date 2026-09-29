@@ -10,5 +10,8 @@ class Provider(ABC):
         self.defaults = defaults or {}
 
     @abstractmethod
-    def build_input(self, seed: str, max_results: int, country: str) -> dict[str, Any]:
+    def build_input(self, query: str, max_results: int, country: str, *, scrape_details: bool = False) -> dict[str, Any]:
         raise NotImplementedError
+
+    def build_preflight_input(self, query: str, country: str) -> dict[str, Any] | None:
+        return None

@@ -1,6 +1,6 @@
 # ATIVADOR LOCAL — MINERAÇÃO INFO ENGINE
 
-Quando a solicitação for mineração de ofertas, big niches, big pain, mecanismo, keywords G6, Meta Ads, TikTok, Google ou validação de oferta:
+Quando a solicitação for MINERAR, BIG PAIN, G6, VALIDAR OFERTA, RAIO-X DE ANUNCIANTE, EXPANDIR MECANISMO, ANALISAR META ADS, ANALISAR TIKTOK, pesquisa de ofertas, pesquisa de palavras-chave, Meta Ads, TikTok ou Google:
 
 1. Leia `skills/SKILL_ATUALIZADA_BIG_NICHOS_LOW_TICKET.md`.
 2. Confirme a versão com `./mineracao.ps1 skill-status`.
@@ -11,6 +11,7 @@ Quando a solicitação for mineração de ofertas, big niches, big pain, mecanis
 4. Abra o `REPORT.md` informado pelo comando.
 5. Interprete os dados segundo a Skill. Não trate longevidade como prova de lucro.
 6. Para saúde, separe o mecanismo comercial das alegações médicas. Claims detectados precisam de validação externa antes de serem reaproveitados.
+7. Trate `evidence_score` apenas como priorização de evidências. A decisão estratégica continua sendo do agente/ChatGPT.
 
 ## Frases de ativação sugeridas
 - `MINERAR: emagrecimento`

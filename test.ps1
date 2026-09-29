@@ -5,4 +5,4 @@ if (-not (Test-Path ".venv\Scripts\python.exe")) {
     exit 1
 }
 $env:PYTHONPATH = (Join-Path $PSScriptRoot "src")
-& .\.venv\Scripts\python.exe -m mineracao_info.cli @args
+& .\.venv\Scripts\python.exe -m pytest -q

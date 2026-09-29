@@ -1,0 +1,45 @@
+schema_version: 1
+
+supported_sources:
+  - meta
+  - tiktok
+  - google
+
+safety:
+  MAX_QUERIES_PER_JOB: 30
+  MAX_RESULTS_PER_QUERY: 100
+  MAX_TOTAL_RESULTS_PER_JOB: 1000
+  MAX_DATASET_ITEMS_PER_RUN: 150
+
+depths:
+  quick:
+    max_queries: 5
+    max_results_per_query: 10
+    max_total_results: 150
+    meta_scrape_details: false
+  medium:
+    max_queries: 15
+    max_results_per_query: 50
+    max_total_results: 500
+    meta_scrape_details: true
+  deep:
+    max_queries: 30
+    max_results_per_query: 100
+    max_total_results: 1000
+    meta_scrape_details: true
+
+evidence_score:
+  weights:
+    deduplicated_volume: 20
+    longevity: 20
+    advertiser_diversity: 15
+    creative_diversity: 15
+    staggered_start_dates: 10
+    cross_source_presence: 10
+    recurring_terms: 10
+  reference_caps:
+    deduplicated_volume: 200
+    advertisers: 30
+    creatives: 100
+    staggered_dates: 20
+    recurring_term_frequency: 20
