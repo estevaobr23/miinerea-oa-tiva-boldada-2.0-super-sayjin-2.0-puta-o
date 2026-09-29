@@ -1,0 +1,615 @@
+{
+  "job_id": "898b3973c411",
+  "status": "completed",
+  "seed": "concepcoes-subnichadas-low-ticket-01",
+  "depth": "quick",
+  "country": "BR",
+  "keywords_executed": [
+    "projetos serralheria metalon",
+    "projetos moveis para gatos",
+    "diagnostico motos defeitos",
+    "aquarismo compatibilidade peixes",
+    "apicultura manejo calendario"
+  ],
+  "sources": [
+    "meta"
+  ],
+  "skill": {
+    "version": "2026-09-28-big-nichos-low-ticket",
+    "sha256": "eadba82db238f79251641cfea566f9bf043fbe58b7b24873ec6f8c61628587f1"
+  },
+  "counts": {
+    "provider_items": 28,
+    "raw_count": 24,
+    "deduplicated_count": 24,
+    "claims": 0
+  },
+  "provider_status": {
+    "meta:1:projetos serralheria metalon": {
+      "source": "meta",
+      "keyword": "projetos serralheria metalon",
+      "actor_id": "solidcode/meta-ads-library-scraper",
+      "status": "completed",
+      "items": 11,
+      "normalized": 10,
+      "input": {
+        "country": "BR",
+        "adActiveStatus": "ACTIVE",
+        "adType": "ALL",
+        "mediaType": "ALL",
+        "publisherPlatforms": [],
+        "languages": [],
+        "includeAboutPage": false,
+        "scrapeAdDetails": false,
+        "onlyTotalCount": false,
+        "searchTerms": [
+          "projetos serralheria metalon"
+        ],
+        "pageUrls": [],
+        "startUrls": [],
+        "maxResults": 10
+      }
+    },
+    "meta:2:projetos moveis para gatos": {
+      "source": "meta",
+      "keyword": "projetos moveis para gatos",
+      "actor_id": "solidcode/meta-ads-library-scraper",
+      "status": "completed",
+      "items": 2,
+      "normalized": 2,
+      "input": {
+        "country": "BR",
+        "adActiveStatus": "ACTIVE",
+        "adType": "ALL",
+        "mediaType": "ALL",
+        "publisherPlatforms": [],
+        "languages": [],
+        "includeAboutPage": false,
+        "scrapeAdDetails": false,
+        "onlyTotalCount": false,
+        "searchTerms": [
+          "projetos moveis para gatos"
+        ],
+        "pageUrls": [],
+        "startUrls": [],
+        "maxResults": 10
+      }
+    },
+    "meta:3:diagnostico motos defeitos": {
+      "source": "meta",
+      "keyword": "diagnostico motos defeitos",
+      "actor_id": "solidcode/meta-ads-library-scraper",
+      "status": "completed",
+      "items": 13,
+      "normalized": 10,
+      "input": {
+        "country": "BR",
+        "adActiveStatus": "ACTIVE",
+        "adType": "ALL",
+        "mediaType": "ALL",
+        "publisherPlatforms": [],
+        "languages": [],
+        "includeAboutPage": false,
+        "scrapeAdDetails": false,
+        "onlyTotalCount": false,
+        "searchTerms": [
+          "diagnostico motos defeitos"
+        ],
+        "pageUrls": [],
+        "startUrls": [],
+        "maxResults": 10
+      }
+    },
+    "meta:4:aquarismo compatibilidade peixes": {
+      "source": "meta",
+      "keyword": "aquarismo compatibilidade peixes",
+      "actor_id": "solidcode/meta-ads-library-scraper",
+      "status": "completed",
+      "items": 0,
+      "normalized": 0,
+      "input": {
+        "country": "BR",
+        "adActiveStatus": "ACTIVE",
+        "adType": "ALL",
+        "mediaType": "ALL",
+        "publisherPlatforms": [],
+        "languages": [],
+        "includeAboutPage": false,
+        "scrapeAdDetails": false,
+        "onlyTotalCount": false,
+        "searchTerms": [
+          "aquarismo compatibilidade peixes"
+        ],
+        "pageUrls": [],
+        "startUrls": [],
+        "maxResults": 10
+      }
+    },
+    "meta:5:apicultura manejo calendario": {
+      "source": "meta",
+      "keyword": "apicultura manejo calendario",
+      "actor_id": "solidcode/meta-ads-library-scraper",
+      "status": "completed",
+      "items": 2,
+      "normalized": 2,
+      "input": {
+        "country": "BR",
+        "adActiveStatus": "ACTIVE",
+        "adType": "ALL",
+        "mediaType": "ALL",
+        "publisherPlatforms": [],
+        "languages": [],
+        "includeAboutPage": false,
+        "scrapeAdDetails": false,
+        "onlyTotalCount": false,
+        "searchTerms": [
+          "apicultura manejo calendario"
+        ],
+        "pageUrls": [],
+        "startUrls": [],
+        "maxResults": 10
+      }
+    }
+  },
+  "metrics": {
+    "raw_count": 24,
+    "deduplicated_count": 24,
+    "source_counts": {
+      "meta": 24
+    },
+    "top_advertisers": [
+      {
+        "name": "super.aco",
+        "count": 4
+      },
+      {
+        "name": "Ѕаmuеl Еlétriса",
+        "count": 4
+      },
+      {
+        "name": "Guti",
+        "count": 2
+      },
+      {
+        "name": "Xavier Elétricos",
+        "count": 2
+      },
+      {
+        "name": "LxMotors Centro Automotivo",
+        "count": 2
+      },
+      {
+        "name": "FARGS",
+        "count": 2
+      },
+      {
+        "name": "Louvfer",
+        "count": 1
+      },
+      {
+        "name": "Sulfer Ferros",
+        "count": 1
+      },
+      {
+        "name": "Aço Forte Ferro e Aço",
+        "count": 1
+      },
+      {
+        "name": "Serralheria Metal Forte",
+        "count": 1
+      },
+      {
+        "name": "Mais Ferraço",
+        "count": 1
+      },
+      {
+        "name": "Matheus Nunes",
+        "count": 1
+      },
+      {
+        "name": "Universo da eletrônica automotiva",
+        "count": 1
+      },
+      {
+        "name": "TechWill",
+        "count": 1
+      }
+    ],
+    "independent_advertisers": 14,
+    "distinct_copies": 3,
+    "distinct_creatives": 24,
+    "launch_dates": [
+      "2026-01-26",
+      "2026-03-18",
+      "2026-08-28",
+      "2026-09-01",
+      "2026-09-07",
+      "2026-09-11",
+      "2026-09-14",
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-28",
+      "2026-09-29"
+    ],
+    "longevity": {
+      "max_days": 246,
+      "median_days": 14.0,
+      "buckets": {
+        "muito_forte": 2,
+        "watchlist": 13,
+        "teste": 6,
+        "investigar": 3
+      }
+    },
+    "longest_ads": [
+      {
+        "external_id": "1914505412482408",
+        "advertiser": "Louvfer",
+        "days_running": 246,
+        "started_at": "2026-01-26T00:00:00+00:00",
+        "ended_at": "2026-09-28T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "947981224285221",
+        "advertiser": "Sulfer Ferros",
+        "days_running": 195,
+        "started_at": "2026-03-18T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "942684808261767",
+        "advertiser": "Ѕаmuеl Еlétriса",
+        "days_running": 32,
+        "started_at": "2026-08-28T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "1040939755414490",
+        "advertiser": "Ѕаmuеl Еlétriса",
+        "days_running": 28,
+        "started_at": "2026-09-01T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "1882628452712595",
+        "advertiser": "TechWill",
+        "days_running": 22,
+        "started_at": "2026-09-07T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": "Mecânico de Honda?\n\nAntes de pedir ECM nova, plugue o H33P na bancada.\n\nEm 3 minutos você descobre se é ECM, CKP, TPS, MAP, bobina ou injetor.\n\nSem chute. Sem peça pedida à toa.\n\nChama no zap que te explico tudo."
+      },
+      {
+        "external_id": "4503527643252608",
+        "advertiser": "Aço Forte Ferro e Aço",
+        "days_running": 18,
+        "started_at": "2026-09-11T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "4465579433681382",
+        "advertiser": "super.aco",
+        "days_running": 18,
+        "started_at": "2026-09-11T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": "Precisando de metalon preto 50×30 para o seu projeto? Encontre na Super Aço! 🔧\n\n⚙️ Espessura de 1,20 mm\n✅ Alta resistência\n🛠️ Ideal para serralheria\n💰 A partir de R$ 73,55 à vista\n\n⚠️ Aproveite enquanto houver disponibilidade: o estoque é limitado! Consulte os valores para pagamento no crédito.\n📍 Su"
+      },
+      {
+        "external_id": "1567878521746450",
+        "advertiser": "Mais Ferraço",
+        "days_running": 18,
+        "started_at": "2026-09-11T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "2294027721357636",
+        "advertiser": "super.aco",
+        "days_running": 18,
+        "started_at": "2026-09-11T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": "Seu próximo projeto começa com o material certo! 🔧\nNa Super Aço, você encontra metalon preto 20×20, com espessura de 1,20 mm, a partir de R$ 35,60 à vista.\n\n✅ Alta resistência\n🛠️ Ideal para serralheria\n🏗️ Versatilidade para seus projetos  \n\n⚠️ Estoque limitado! Consulte os valores para pagamento no "
+      },
+      {
+        "external_id": "1044305151756118",
+        "advertiser": "super.aco",
+        "days_running": 18,
+        "started_at": "2026-09-11T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": "Precisando de metalon preto 50×30 para o seu projeto? Encontre na Super Aço! 🔧\n\n⚙️ Espessura de 1,20 mm\n✅ Alta resistência\n🛠️ Ideal para serralheria\n💰 A partir de R$ 73,55 à vista\n\n⚠️ Aproveite enquanto houver disponibilidade: o estoque é limitado! Consulte os valores para pagamento no crédito.\n📍 Su"
+      },
+      {
+        "external_id": "1542868360473742",
+        "advertiser": "super.aco",
+        "days_running": 18,
+        "started_at": "2026-09-11T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": "Precisando de metalon preto 50×30 para o seu projeto? Encontre na Super Aço! 🔧\n\n⚙️ Espessura de 1,20 mm\n✅ Alta resistência\n🛠️ Ideal para serralheria\n💰 A partir de R$ 73,55 à vista\n\n⚠️ Aproveite enquanto houver disponibilidade: o estoque é limitado! Consulte os valores para pagamento no crédito.\n📍 Su"
+      },
+      {
+        "external_id": "1089090583642328",
+        "advertiser": "Universo da eletrônica automotiva",
+        "days_running": 15,
+        "started_at": "2026-09-14T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "1740046523891318",
+        "advertiser": "Guti",
+        "days_running": 13,
+        "started_at": "2026-09-16T00:00:00+00:00",
+        "ended_at": "2026-09-28T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "1351387083456742",
+        "advertiser": "Guti",
+        "days_running": 13,
+        "started_at": "2026-09-16T00:00:00+00:00",
+        "ended_at": "2026-09-28T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "1235699662066897",
+        "advertiser": "Xavier Elétricos",
+        "days_running": 13,
+        "started_at": "2026-09-16T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "1757589748881873",
+        "advertiser": "Xavier Elétricos",
+        "days_running": 12,
+        "started_at": "2026-09-17T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "1055990140644737",
+        "advertiser": "Ѕаmuеl Еlétriса",
+        "days_running": 11,
+        "started_at": "2026-09-18T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "28301520952843612",
+        "advertiser": "Serralheria Metal Forte",
+        "days_running": 10,
+        "started_at": "2026-09-19T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "1008807932176818",
+        "advertiser": "Ѕаmuеl Еlétriса",
+        "days_running": 4,
+        "started_at": "2026-09-25T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      },
+      {
+        "external_id": "1396280535394377",
+        "advertiser": "FARGS",
+        "days_running": 3,
+        "started_at": "2026-09-26T00:00:00+00:00",
+        "ended_at": "2026-09-29T00:00:00+00:00",
+        "is_active": true,
+        "landing_url": null,
+        "text": ""
+      }
+    ],
+    "possible_relaunches": [],
+    "domains": [],
+    "related_queries": [],
+    "people_also_ask": [],
+    "top_terms": [
+      {
+        "term": "super",
+        "count": 8
+      },
+      {
+        "term": "metalon",
+        "count": 4
+      },
+      {
+        "term": "preto",
+        "count": 4
+      },
+      {
+        "term": "projeto",
+        "count": 4
+      },
+      {
+        "term": "espessura",
+        "count": 4
+      },
+      {
+        "term": "alta",
+        "count": 4
+      },
+      {
+        "term": "resistência",
+        "count": 4
+      },
+      {
+        "term": "ideal",
+        "count": 4
+      },
+      {
+        "term": "serralheria",
+        "count": 4
+      },
+      {
+        "term": "partir",
+        "count": 4
+      },
+      {
+        "term": "vista",
+        "count": 4
+      },
+      {
+        "term": "estoque",
+        "count": 4
+      },
+      {
+        "term": "limitado",
+        "count": 4
+      },
+      {
+        "term": "consulte",
+        "count": 4
+      },
+      {
+        "term": "valores",
+        "count": 4
+      },
+      {
+        "term": "pagamento",
+        "count": 4
+      },
+      {
+        "term": "crédito",
+        "count": 4
+      },
+      {
+        "term": "vila",
+        "count": 4
+      },
+      {
+        "term": "mury",
+        "count": 4
+      },
+      {
+        "term": "volta",
+        "count": 4
+      },
+      {
+        "term": "redonda",
+        "count": 4
+      },
+      {
+        "term": "clique",
+        "count": 4
+      },
+      {
+        "term": "anúncio",
+        "count": 4
+      },
+      {
+        "term": "orçamento",
+        "count": 4
+      },
+      {
+        "term": "precisando",
+        "count": 3
+      },
+      {
+        "term": "encontre",
+        "count": 3
+      },
+      {
+        "term": "aproveite",
+        "count": 3
+      },
+      {
+        "term": "enquanto",
+        "count": 3
+      },
+      {
+        "term": "houver",
+        "count": 3
+      },
+      {
+        "term": "disponibilidade",
+        "count": 3
+      }
+    ],
+    "candidate_mechanisms": []
+  },
+  "claims": [],
+  "evidence_score": {
+    "score_type": "EVIDENCE_SCORE",
+    "score": 68.5,
+    "components": {
+      "deduplicated_volume": 12.14,
+      "longevity": 14.37,
+      "advertiser_diversity": 11.83,
+      "creative_diversity": 10.46,
+      "staggered_start_dates": 9.11,
+      "cross_source_presence": 3.33,
+      "recurring_terms": 7.22
+    },
+    "weights": {
+      "deduplicated_volume": 20,
+      "longevity": 20,
+      "advertiser_diversity": 15,
+      "creative_diversity": 15,
+      "staggered_start_dates": 10,
+      "cross_source_presence": 10,
+      "recurring_terms": 10
+    },
+    "signals": {
+      "deduplicated_volume": 24,
+      "max_longevity_days": 246.0,
+      "median_longevity_days": 14.0,
+      "independent_advertisers": 14,
+      "distinct_creatives": 24,
+      "distinct_start_dates": 15,
+      "sources_present": 1,
+      "recurring_terms": 30
+    },
+    "interpretation": "Prioriza evidencias coletadas. Nao estima lucro, ROAS, demanda garantida nem recomenda criar uma oferta.",
+    "strategic_assessment": null
+  },
+  "strategic_assessment": null,
+  "warning": "Evidencias de persistencia e recorrencia nao provam lucro. A avaliacao estrategica pertence ao ChatGPT/humano."
+}
